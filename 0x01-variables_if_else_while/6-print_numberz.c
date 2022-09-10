@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point 
+ * main - Print if number is positive, negative or zero 
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int d;
+int n;
 
-for (d = '0'; d <= '9'; d++)
+for (n = '0'; n <= '9'; n++)
 {
-	putchar(d);
+	putchar(n);
 }
 putchar('\n');
 
