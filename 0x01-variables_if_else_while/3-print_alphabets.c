@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - Print if number is positive, negative or zero
  *
  * Return 0 (Success)
  */
 int main(void)
-
 {
 char low;
 
