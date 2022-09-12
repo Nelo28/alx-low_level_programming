@@ -26,4 +26,4 @@ for (p = 0; p <= 98; p++)
 }
 putchar('\n');
 return (0);
-}	
+}
