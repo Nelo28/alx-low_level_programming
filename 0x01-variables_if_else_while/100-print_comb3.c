@@ -3,14 +3,14 @@
 #include <time.h>
 
 /**
- * main - Entry Point
+ * main - Program that prints all possible different combinations of two digits.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int c = 0
-	int f_d
-	int l_d
+	int c = 0;
+	int f_d;
+	int l_d;
 
 	while (c <= 99)
 	{
@@ -30,6 +30,6 @@ int main(void)
 		}
 		c++;
 	}
-	putchar ('\n')
+	putchar ('\n');
 	return (0);
 }
