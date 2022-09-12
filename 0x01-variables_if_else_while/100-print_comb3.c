@@ -7,17 +7,12 @@
 int main(void)
 {
 int d;
-int p;
 for (d = 0; d <= 99; d++)
 {
 	putchar((d / 10) + '0');
 	putchar((p % 10) + '0');
 	if (d != 89)
 	{
-		putchar(d);
-		putchar(p);
-		if (d == '8' && p == '9')
-			continue;
 		putchar(',');
 		putchar(' ');
 	}
