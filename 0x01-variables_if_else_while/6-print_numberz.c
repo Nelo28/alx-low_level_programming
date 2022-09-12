@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Print if number is positive, negative or zero 
  *
@@ -8,12 +7,10 @@
 int main(void)
 {
 int n;
-
 for (n = '0'; n <= '9'; n++)
 {
 	putchar(n);
 }
 putchar('\n');
-
 return (0);
 }
