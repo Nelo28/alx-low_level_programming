@@ -7,10 +7,11 @@
 int main(void)
 {
 int d;
+int p;
 for (d = 0; d <= 99; d++)
 {
 	putchar((d / 10) + '0');
-	putchar((d % 10) + '0');
+	putchar((p % 10) + '0');
 	if (d != 89)
 	{
 		putchar(d);
