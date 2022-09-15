@@ -6,21 +6,21 @@
  */
 int main(void)
 {
-	int i;
-	/* printf - output */
-	printf("Infinite loop incoming :(\n");
+int i;
+/* printf - output */
+printf("Infinite loop incoming :(\n");
 
-	i = 0;
+i = 0;
 
-	/*
-	 * while (i < 10)
-	 * {
-	 *	 putchar(i);
-	 * }
-	 printf - finished output
-	 */
+/*
+*while (i < 10)
+*{
+*	 putchar(i);
+*}
+printf - finished output
+*/
 
-	printf("Infinite loop avoided! \\o/\n");
+printf("Infinite loop avoided! \\o/\n");
 
-	return (0);
+return (0);
 }
