@@ -10,7 +10,6 @@
 void puts_half(char *str)
 {
 	int len = 0, i, n = (len - 1) / 2;
-	str = "Holberton!";
 	
 	while (str[len] != '\0')
 		len++;
@@ -19,6 +18,6 @@ void puts_half(char *str)
 	else
 		n = (len + 1) / 2;
 	for (i = n; i < len; i++)
-		putchar(str[i]);
-	putchar('\n');
+		_putchar(str[i]);
+	_putchar('\n');
 }
