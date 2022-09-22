@@ -7,7 +7,7 @@
 int base10(int n)
 {
 	int base = 10;
-	
+
 	while (n > 0)
 	{
 		base *= 10;
@@ -23,6 +23,7 @@ int base10(int n)
 void print_number(int n)
 {
 	int power;
+
 	power = base10(8);
 	if (n < 0)
 	{
