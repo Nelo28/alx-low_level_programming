@@ -31,7 +31,7 @@ void print_number(int n)
 		n *= -1;
 	}
 	if (n == 0)
-		putchar('0');
+		_putchar('0');
 	else
 	{
 		while (n / power == 0)
