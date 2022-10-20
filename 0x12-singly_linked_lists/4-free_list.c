@@ -5,7 +5,7 @@
  * free_list - frees a list
  * main - check the code
  * @head: head of the linked list.
- * Return: always 0
+ * Return: no return
  */
 void free_list(list_t *head)
 {
@@ -17,5 +17,4 @@ void free_list(list_t *head)
 		free(current->str);
 		free(current);
 	}
-	return (0);
 }
