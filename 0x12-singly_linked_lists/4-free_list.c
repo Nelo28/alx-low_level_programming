@@ -1,10 +1,13 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 
 /**
  * free_list - frees a list
+ * main - check the code
  * @head: head of the linked list.
- * Return: no return.
+ * Return: always 0
  */
 void free_list(list_t *head)
 {
@@ -16,4 +19,5 @@ void free_list(list_t *head)
 		free(current->str);
 		free(current);
 	}
+	return (0);
 }
